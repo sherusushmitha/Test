@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/bottomSheetContainer"
+    android:layout_height="330dp"
+    android:orientation="vertical"
+    tools:context=".activities.Bottom_sheet_backgroundActivity"
+     android:background="@drawable/bottom_sheet_background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F2F4F4">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/widget">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text"
+                android:text="Change Delivery Address"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@id/widget"
+        android:id="@+id/widget1"
+        android:layout_marginTop="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:id="@+id/edit"
+                android:hint="Enter Pincode"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/pincode"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:text="or"
+        android:layout_below="@id/widget1"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/widget2"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/text1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text3"
+                android:text="Sushma"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/radio"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text4"
+                android:text="395/A,gundlasingaram"
+                android:layout_below="@id/text3"
+                android:layout_toRightOf="@id/radio" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@id/text5"
+                android:text="Wrangal-506009"
+                android:layout_below="@id/text4"
+                android:layout_toRightOf="@id/radio"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/text6"
+                android:text="Home"
+                android:layout_alignParentRight="true"
+                android:textColor="#117A65"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/home"
+                android:gravity="center"/>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/widget3"
+        android:layout_below="@id/widget2">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add_address"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="ADD NEW ADDRESS"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:background="@drawable/pin"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"/>
+    </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</LinearLayout>

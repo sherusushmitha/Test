@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E8E8"
+    tools:context=".fragment.CartFragment">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/product_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+
+                <!--                <TextView-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:id="@+id/text11"-->
+                <!--                    android:text="Frequently Bought Together"-->
+                <!--                    android:layout_marginLeft="10dp"-->
+                <!--                    android:textColor="@color/black"/>-->
+
+                <androidx.recyclerview.widget.RecyclerView
+
+                    android:layout_below="@+id/product_recycler"
+                    android:id="@+id/recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+
+    </RelativeLayout>
+
+</ScrollView>
+
+    <!--        <androidx.cardview.widget.CardView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="570dp"-->
+    <!--            android:id="@+id/resource">-->
+    <!--            <RelativeLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent">-->
+
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/text"-->
+    <!--                    android:layout_width="150dp"-->
+    <!--                    android:layout_height="22dp"-->
+    <!--                    android:text="See more Fresho products"-->
+    <!--                    android:background="@drawable/product"-->
+    <!--                    android:gravity="center"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:layout_marginTop="10dp"/>-->
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:id="@+id/text1"-->
+    <!--                    android:text="Chicken-Curry Cut Without Skin,Antibiotic "-->
+    <!--                    android:layout_below="@id/text"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:layout_marginTop="8dp"-->
+    <!--                    android:textSize="15sp"-->
+    <!--                    android:textColor="@color/black"/>-->
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:id="@+id/text2"-->
+    <!--                    android:text="Residue-Free,1kg"-->
+    <!--                    android:layout_below="@id/text1"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:layout_marginTop="5dp"-->
+    <!--                    android:textSize="15sp"-->
+    <!--                    android:textColor="@color/black"/>-->
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="Rs 250"-->
+    <!--                    android:id="@+id/text3"-->
+    <!--                    android:layout_below="@id/text2"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:layout_marginTop="3dp"-->
+    <!--                    android:textColor="@color/black"/>-->
+    <!--                <TextView-->
+    <!--                    android:layout_width="70dp"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:id="@+id/text4"-->
+    <!--                    android:text="50% OFF"-->
+    <!--                    android:layout_toRightOf="@id/text3"-->
+    <!--                    android:layout_below="@id/text2"-->
+    <!--                    android:layout_marginTop="5dp"-->
+    <!--                    android:textSize="13sp"-->
+    <!--                    android:gravity="center"-->
+    <!--                    android:background="@drawable/resource"-->
+    <!--                    android:layout_marginLeft="15dp"/>-->
+    <!--                <ImageView-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="220dp"-->
+    <!--                    android:id="@+id/image"-->
+    <!--                    android:src="@drawable/chiken"-->
+    <!--                    android:layout_below="@id/text4"-->
+    <!--                    android:layout_marginTop="20dp"/>-->
+
+    <!--                <View-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="0.1dp"-->
+    <!--                    android:id="@+id/view"-->
+    <!--                    android:layout_below="@id/image"-->
+    <!--                    android:layout_marginTop="10dp"/>-->
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:id="@+id/text5"-->
+    <!--                    android:layout_below="@id/view"-->
+    <!--                    android:text="Pack Sizes"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:textColor="@color/black"-->
+    <!--                    android:textSize="17sp"-->
+    <!--                    android:layout_marginTop="5dp"/>-->
+
+    <!--                //1-->
+
+    <!--                <androidx.cardview.widget.CardView-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="50dp"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:layout_marginRight="10dp"-->
+    <!--                    android:id="@+id/hello"-->
+    <!--                    android:layout_below="@id/text5"-->
+    <!--                    android:layout_marginTop="5dp">-->
+
+    <!--                    <RelativeLayout-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:background="@color/white">-->
+    <!--                        <TextView-->
+    <!--                            android:layout_width="65dp"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:id="@+id/textview"-->
+    <!--                            android:text="50% OFF"-->
+    <!--                            android:textColor="@color/black"-->
+    <!--                            android:gravity="center"-->
+    <!--                            android:background="@drawable/resource"/>-->
+    <!--                        <TextView-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:id="@+id/textview1"-->
+    <!--                            android:layout_below="@id/textview"-->
+    <!--                            android:text="1 kg"-->
+    <!--                            android:layout_marginLeft="10dp"-->
+    <!--                            android:textColor="@color/black"-->
+    <!--                            android:layout_marginTop="3dp"/>-->
+    <!--                        <TextView-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:id="@+id/textview2"-->
+    <!--                            android:layout_below="@id/textview"-->
+    <!--                            android:layout_toRightOf="@id/textview1"-->
+    <!--                            android:layout_marginTop="3dp"-->
+    <!--                            android:text="Rs 250"-->
+    <!--                            android:layout_marginLeft="120dp"-->
+    <!--                            android:textColor="@color/black"/>-->
+
+    <!--                        <RadioButton-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:textColor="@color/black"-->
+    <!--                            android:layout_below="@id/textview"-->
+    <!--                            android:layout_alignParentRight="true"-->
+    <!--                            android:layout_marginRight="20dp"/>-->
+
+
+    <!--                    </RelativeLayout>-->
+
+
+    <!--                </androidx.cardview.widget.CardView>-->
+
+    <!--                //2-->
+
+
+    <!--                <androidx.cardview.widget.CardView-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="50dp"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:layout_marginRight="10dp"-->
+    <!--                    android:id="@+id/hii"-->
+    <!--                    android:layout_below="@id/hello"-->
+    <!--                    android:layout_marginTop="5dp">-->
+
+    <!--                    <RelativeLayout-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:background="@color/white">-->
+    <!--                        <TextView-->
+    <!--                            android:layout_width="65dp"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:id="@+id/textview3"-->
+    <!--                            android:text="50% OFF"-->
+    <!--                            android:textColor="@color/black"-->
+    <!--                            android:gravity="center"-->
+    <!--                            android:background="@drawable/resource"/>-->
+    <!--                        <TextView-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:id="@+id/textview4"-->
+    <!--                            android:layout_below="@id/textview3"-->
+    <!--                            android:text="500 g"-->
+    <!--                            android:layout_marginLeft="10dp"-->
+    <!--                            android:textColor="@color/black"-->
+    <!--                            android:layout_marginTop="3dp"/>-->
+    <!--                        <TextView-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:id="@+id/textview5"-->
+    <!--                            android:layout_below="@id/textview3"-->
+    <!--                            android:layout_toRightOf="@id/textview4"-->
+    <!--                            android:layout_marginTop="3dp"-->
+    <!--                            android:text="Rs 123"-->
+    <!--                            android:layout_marginLeft="115dp"-->
+    <!--                            android:textColor="@color/black"/>-->
+
+    <!--                        <RadioButton-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:textColor="@color/black"-->
+    <!--                            android:layout_below="@id/textview3"-->
+    <!--                            android:layout_alignParentRight="true"-->
+    <!--                            android:layout_marginRight="20dp"/>-->
+
+
+    <!--                    </RelativeLayout>-->
+
+
+    <!--                </androidx.cardview.widget.CardView>-->
+
+    <!--                //3-->
+
+    <!--                <androidx.cardview.widget.CardView-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="50dp"-->
+    <!--                    android:layout_marginLeft="10dp"-->
+    <!--                    android:layout_marginRight="10dp"-->
+    <!--                    android:id="@+id/hru"-->
+    <!--                    android:layout_below="@id/hii"-->
+    <!--                    android:layout_marginTop="5dp">-->
+
+    <!--                    <RelativeLayout-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="match_parent"-->
+    <!--                        android:background="@color/white">-->
+    <!--                        <TextView-->
+    <!--                            android:layout_width="65dp"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:id="@+id/textview6"-->
+    <!--                            android:text="50% OFF"-->
+    <!--                            android:textColor="@color/black"-->
+    <!--                            android:gravity="center"-->
+    <!--                            android:background="@drawable/resource"/>-->
+    <!--                        <TextView-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:id="@+id/textview7"-->
+    <!--                            android:layout_below="@id/textview6"-->
+    <!--                            android:text="250 g"-->
+    <!--                            android:layout_marginLeft="10dp"-->
+    <!--                            android:textColor="@color/black"-->
+    <!--                            android:layout_marginTop="3dp"/>-->
+    <!--                        <TextView-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:id="@+id/textview8"-->
+    <!--                            android:layout_below="@id/textview6"-->
+    <!--                            android:layout_toRightOf="@id/textview7"-->
+    <!--                            android:layout_marginTop="3dp"-->
+    <!--                            android:text="Rs 123"-->
+    <!--                            android:layout_marginLeft="115dp"-->
+    <!--                            android:textColor="@color/black"/>-->
+
+    <!--                        <RadioButton-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:textColor="@color/black"-->
+    <!--                            android:layout_below="@id/textview6"-->
+    <!--                            android:layout_alignParentRight="true"-->
+    <!--                            android:layout_marginRight="20dp"/>-->
+
+
+    <!--                    </RelativeLayout>-->
+
+
+    <!--                </androidx.cardview.widget.CardView>-->
+
+
+    <!--            </RelativeLayout>-->
+
+    <!--        </androidx.cardview.widget.CardView>-->
+
+

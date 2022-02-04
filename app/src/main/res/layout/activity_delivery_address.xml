@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Delivery_AddressActivity"
+    android:background="#E5E8E8">
+
+    <!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/tool_bar"-->
+<!--            android:background="#239B56">-->
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:id="@+id/delivery_image"-->
+<!--                android:tint="@color/white"-->
+<!--                android:src="@drawable/ic_baseline_arrow_back_ios_24"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/delivery_text"-->
+<!--                android:layout_toRightOf="@id/delivery_image"-->
+<!--                android:text="Choose Delivery Address"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="20sp"/>-->
+<!--            </RelativeLayout>-->
+<!--        </androidx.appcompat.widget.Toolbar>-->
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/delivery_tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#239B56"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        android:contentInsetEnd="0dp"
+        android:contentInsetRight="0dp"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:title="Choose Delivery Address"
+        app:titleTextAppearance="@style/AppTheme"
+        app:titleTextColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/choose_text"
+        android:text="SAVED ADDRESS"
+        android:layout_below="@id/delivery_tool"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/choose_text1"
+        android:text="+ADD NEW ADDRESS"
+        android:layout_below="@id/delivery_tool"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#2874A6"/>
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/delivery_address1"
+        android:layout_width="match_parent"
+        android:layout_below="@id/choose_text"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

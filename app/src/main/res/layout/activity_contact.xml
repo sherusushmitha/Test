@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ContactActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/delivery_tool1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        android:contentInsetEnd="0dp"
+        android:contentInsetRight="0dp"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        android:layout_marginTop="10dp"
+        app:titleTextAppearance="@style/AppTheme"
+        app:titleTextColor="@color/white" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/delivery_tool1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/con_text"
+                android:text="Contact Us"
+                android:layout_centerHorizontal="true"
+                android:textSize="19sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_send"
+                android:text="Feel free to contact us any time.We will get back to you as soon as We can!"
+                android:layout_below="@id/con_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/con_text1"
+                android:layout_below="@id/text_send"
+                android:text="Email*"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="17sp"/>
+
+            <EditText
+                android:id="@+id/your_name"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_below="@id/con_text1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/pincode"
+                android:inputType="text"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/con_text2"
+                android:layout_below="@id/your_name"
+                android:text="Phone"
+                android:layout_marginLeft="10dp"
+                android:textSize="17sp"/>
+
+            <EditText
+                android:id="@+id/your_name1"
+                android:layout_width="fill_parent"
+                android:layout_height="38dp"
+                android:layout_marginBottom="20dp"
+                android:inputType="text"
+                android:background="@drawable/pincode"
+                android:layout_below="@id/con_text2"
+                android:textSize="14sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/con_text3"
+                android:layout_below="@id/your_name1"
+                android:text="Message"
+                android:layout_marginLeft="10dp"
+                android:textSize="17sp"/>
+
+            <EditText
+                android:id="@+id/your_name2"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="20dp"
+                android:inputType="text"
+                android:background="@drawable/pincode"
+                android:layout_below="@id/con_text3"
+                android:textSize="14sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/con_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/resource"
+                android:gravity="center"
+                android:text="Send"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/your_name2"
+                android:textColor="@color/white" />
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+</RelativeLayout>

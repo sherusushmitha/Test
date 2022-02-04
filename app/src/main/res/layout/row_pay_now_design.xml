@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:lottie_repeatCount="3"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/correct1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lottie"
+            android:text="Payment Successfully"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:textSize="17sp"
+            android:textColor="#2ECC71"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/button1"
+            android:text="Continue"
+            android:gravity="center"
+            android:layout_below="@id/text"
+            android:background="@drawable/button1"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.slideshow.Payment_Fragment"
+    android:background="#F2F3F4">
+    <androidx.cardview.widget.CardView
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/card1"
+        android:layout_marginLeft="10dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:tint="@color/black"
+                android:id="@+id/image"
+               android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_baseline_credit_card_24"
+                android:background="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text"
+                android:layout_below="@id/image"
+                android:text="Card"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+
+
+
+        </RelativeLayout>
+
+//1
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="160dp"
+        android:layout_height="170dp"
+        android:layout_toRightOf="@id/card1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:tint="@color/black"
+                android:id="@+id/imageview"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_baseline_monetization_on_24"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash"
+                android:textColor="@color/black"
+                android:layout_below="@id/imageview"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:textSize="17sp"/>
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    //2
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/text1"-->
+<!--        android:text="Visa**** ****1234"-->
+<!--        android:layout_below="@id/card"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textColor="#154360"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/text2"-->
+<!--        android:layout_below="@id/text1"-->
+<!--        android:text="Rs.500/-"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:layout_marginTop="5dp"/>-->
+<!--    <ImageView-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="32dp"-->
+<!--        android:id="@+id/image1"-->
+<!--        android:layout_below="@id/text1"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:tint="@color/black"-->
+<!--        android:src="@drawable/ic_baseline_check_circle_outline_24"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/text3"-->
+<!--        android:text="Choose Another Card"-->
+<!--        android:layout_below="@id/text2"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:textColor="#58D68D"/>-->
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/card1"
+        android:layout_marginTop="10dp">
+
+    </FrameLayout>
+
+
+
+
+</RelativeLayout>
+

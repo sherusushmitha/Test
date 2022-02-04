@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+    <group
+        android:id="@+id/menu_bottom1"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/My_Orders"
+            android:icon="@drawable/ic_baseline_local_mall_24"
+            android:title="@string/menu_My_Orders" />
+        <item
+            android:id="@+id/My_Cart"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="@string/menu_My_Cart"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="@string/menu_slideshow"
+            android:icon="@drawable/ic_baseline_person_24"/>
+        <item
+            android:id="@+id/My_Notifications"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:title="@string/menu_My_Notifications"/>
+
+   </group>
+
+
+        <item
+            android:id="@+id/Help_center"
+            android:title="@string/menu_Help_center"/>
+        <item
+            android:id="@+id/Privacy"
+            android:title="@string/menu_privacy_Policy"/>
+        <item
+            android:id="@+id/Terms"
+            android:title="@string/menu_Terms_Conditions"/>
+    </group>
+</menu>

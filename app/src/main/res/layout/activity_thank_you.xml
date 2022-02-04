@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.Thank_youActivity"
+    android:background="#5DADE2">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/thank_you"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5DADE2"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        android:contentInsetEnd="0dp"
+        android:contentInsetRight="0dp"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:titleTextColor="@color/white"
+        app:title=""
+        app:titleTextAppearance="@style/AppTheme"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_thank"
+        android:text="Thank you"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_short"
+        android:text="We'll be in touch"
+        android:layout_below="@id/text_thank"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_short1"
+        android:text="Shortly"
+        android:layout_below="@id/text_short"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+<!--    <TextView-->
+<!--        android:layout_width="120dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:id="@+id/text_short2"-->
+<!--        android:text="Next"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="200dp"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_below="@+id/text_short1"-->
+<!--        android:layout_marginRight="25dp"-->
+<!--        android:drawableRight="@drawable/ic_baseline_arrow_forward_24"-->
+<!--        android:drawableTint="@color/white"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:gravity="center"-->
+<!--        android:background="@drawable/resource"-->
+<!--        />-->
+
+
+
+
+</RelativeLayout>
