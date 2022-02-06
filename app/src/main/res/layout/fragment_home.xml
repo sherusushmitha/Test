@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E5E8E8"
-    tools:context=".ui.home.HomeFragment">
+    tools:context="com.in.fashion.ui.home.HomeFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"

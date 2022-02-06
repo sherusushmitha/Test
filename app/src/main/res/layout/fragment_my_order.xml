@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.gallery.My_Orders">
+    tools:context="com.in.fashion.ui.gallery.My_Orders">
 
     <RelativeLayout
         android:layout_width="match_parent"

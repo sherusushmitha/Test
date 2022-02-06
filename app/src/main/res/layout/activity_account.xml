@@ -10,7 +10,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".activities.AccountActivity"
+    tools:context="com.in.fashion.activities.AccountActivity"
     android:background="#F8F9F9">
 
     <RelativeLayout

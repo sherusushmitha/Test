@@ -6,7 +6,7 @@
     android:id="@+id/bottomSheetContainer"
     android:layout_height="330dp"
     android:orientation="vertical"
-    tools:context=".activities.Bottom_sheet_backgroundActivity"
+    tools:context="com.in.fashion.activities.Bottom_sheet_backgroundActivity"
      android:background="@drawable/bottom_sheet_background">
     <RelativeLayout
         android:layout_width="match_parent"

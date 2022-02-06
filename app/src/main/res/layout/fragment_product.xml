@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E5E8E8"
-    tools:context=".fragment.CartFragment">
+    tools:context="com.in.fashion.fragment.CartFragment">
 
     <RelativeLayout
         android:id="@+id/relative"

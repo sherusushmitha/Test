@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E5E8E8"
-    tools:context=".activities.Add_AddressActivity">
+    tools:context="com.in.fashion.activities.Add_AddressActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/delivery_tool3"

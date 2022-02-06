@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.Private_PolicyActivity">
+    tools:context="com.in.fashion.ui.Private_PolicyActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/delivery_tool6"

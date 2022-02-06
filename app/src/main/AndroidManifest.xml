@@ -14,23 +14,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fashion">
         <activity
-            android:name=".ui.home.Thank_youActivity"
+            android:name="com.in.fashion.ui.home.Thank_youActivity"
             android:theme="@style/AppTheme1">
 
         </activity>
         <activity
-            android:name=".activities.ContactActivity"
+            android:name="com.in.fashion.activities.ContactActivity"
             android:theme="@style/AppTheme1">
 
         </activity>
         <activity
-            android:name=".activities.Delivery_AddressActivity"
+            android:name="com.in.fashion.activities.Delivery_AddressActivity"
             android:theme="@style/AppTheme1" />
         <activity
-            android:name=".activities.Reset_PasswordActivity"
+            android:name="com.in.fashion.activities.Reset_PasswordActivity"
             android:theme="@style/AppTheme1" />
         <activity
-            android:name=".activities.SplashActivity"
+            android:name="com.in.fashion.activities.SplashActivity"
             android:theme="@style/AppTheme1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,48 +39,48 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.Terms_ConditionsActivity"
+            android:name="com.in.fashion.ui.Terms_ConditionsActivity"
             android:theme="@style/AppTheme1" />
         <activity
-            android:name=".ui.Private_PolicyActivity"
+            android:name="com.in.fashion.ui.Private_PolicyActivity"
             android:theme="@style/AppTheme1" />
         <activity
-            android:name=".ui.home.Payment_Activity"
+            android:name="com.in.fashion.ui.home.Payment_Activity"
             android:theme="@style/AppTheme1" />
         <activity
-            android:name=".ui.home.Continue_Activity"
+            android:name="com.in.fashion.ui.home.Continue_Activity"
             android:theme="@style/AppTheme1" />
         <activity
-            android:name=".activities.Add_AddressActivity"
+            android:name="com.in.fashion.activities.Add_AddressActivity"
             android:theme="@style/AppTheme1" />
-        <activity android:name=".activities.Bottom_sheet_backgroundActivity" />
+        <activity android:name="com.in.fashion.activities.Bottom_sheet_backgroundActivity" />
         <activity
-            android:name=".ui.home.Delivery_Options_Activity"
-            android:theme="@style/AppTheme1" />
-        <activity
-            android:name=".activities.CartActivity"
+            android:name="com.in.fashion.ui.home.Delivery_Options_Activity"
             android:theme="@style/AppTheme1" />
         <activity
-            android:name=".ui.slideshow.SettingActivity"
+            android:name="com.in.fashion.activities.CartActivity"
             android:theme="@style/AppTheme1" />
         <activity
-            android:name=".ui.slideshow.My_PromoActivity"
+            android:name="com.in.fashion.ui.slideshow.SettingActivity"
             android:theme="@style/AppTheme1" />
         <activity
-            android:name=".activities.AccountActivity"
+            android:name="com.in.fashion.ui.slideshow.My_PromoActivity"
             android:theme="@style/AppTheme1" />
         <activity
-            android:name=".SideNavigation"
+            android:name="com.in.fashion.activities.AccountActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name="com.in.fashion.SideNavigation"
             android:label="@string/title_activity_side_navigation"
             android:theme="@style/Theme.Fashion.NoActionBar" />
         <activity
-            android:name=".activities.OTPActivity"
+            android:name="com.in.fashion.activities.OTPActivity"
             android:theme="@style/AppTheme1" />
         <activity
-            android:name=".activities.RegisterActivity"
+            android:name="com.in.fashion.activities.RegisterActivity"
             android:theme="@style/AppTheme1" />
         <activity
-            android:name=".activities.LoginActivity"
+            android:name="com.in.fashion.activities.LoginActivity"
             android:theme="@style/AppTheme1" />
     </application>
 
